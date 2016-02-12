@@ -44,7 +44,7 @@ if ( ! class_exists( Prag_Post_List_Widget ) ) {
 
             echo $args['before_title'] . esc_html( apply_filters( 'widget_title', $instance['title'] ) ) . $args['after_title'];
 
-            if ( ! empty( $posts ) ) {
+            if ( ! empty( $posts ) && is_array( $posts ) ) {
                 $first = true;
                 echo '<ul>';
                 foreach ( $posts as $post ) {
