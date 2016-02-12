@@ -3,8 +3,8 @@
     Plugin Name: Post Listing Widget
     Plugin URI: https://www.pragmatticode.com
     Description: Widget to display a listing of posts
-    Author: Matt Walters (mwalters@pragmatticode.com)
-    Version: 0.1
+    Author: Matt Walters
+    Version: 1.0.0
     Author URI: https://www.pragmatticode.com
  */
 
